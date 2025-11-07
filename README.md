@@ -59,5 +59,11 @@ O design foi pensado para ser **claro e acessível**, com:
 - Manipulação de eventos (`click`, `input`, `change`, `keydown`)  
 - Conversão de strings para números (`parseFloat`, `replace`, `toFixed`)  
 - Controle de fluxo e funções puras  
-- Boas práticas de separação de responsabilidades entre HTML, CSS e JS  
+- Boas práticas de separação de responsabilidades entre HTML, CSS e JS
+
+---
+
+## 🌐 Acesse o Projeto Online
+
+👉 [**Clique aqui para testar o Dia de Sorte**](https://tarcisioguedes.github.io/Conversor-de-Moedas/)
 
