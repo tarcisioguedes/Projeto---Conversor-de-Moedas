@@ -48,7 +48,9 @@ O design foi pensado para ser **claro e acessível**, com:
 - Ícones e bandeiras que representam visualmente as moedas.  
 - Elementos centralizados, criando uma interface agradável e intuitiva.  
 
-📸 *Exemplo visual (adicione seu printscreen aqui!)*  
+📸 *Exemplo visual*
+
+<img src="assets/Mockup - Conversor de moedas.png" alt="Muckup mobile e desktop" width="800">
 
 ---
 
