@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-color: #8A51FC;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.logo {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+}
+
+main {
+  width: 375px;
+  background: #f4f4f4;
+  border-radius: 20px;
+  margin: 0 auto 40px;
+  padding: 44px 24px 23px;
+}
+
+label {
+  color: #777777;
+  font-weight: 400px;
+  font-size: 14px;
+}
+
+select, input {
+  background: #ffffff;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  height: 48px;
+  width: 100%;
+  margin-bottom: 24px;
+  appearance: none;
+  padding-left: 18px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #555555;
+  cursor: pointer;
+}
+
+button {
+  background: #772fd3;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  height: 48px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.6;
+} 
+
+section {
+  border-radius: 20px;
+border: 1px solid #772FD3;
+margin-top: 36px;
+padding: 12px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.imagem-seta {
+  margin: 15px 0;
+}
+
+.caixa-moeda-brasil, .caixa-moeda-EUA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  justify-content: center; /* <-- centraliza verticalmente */
+  text-align: center;
+}
+
+.caixa-moeda-brasil img {
+  display: block;
+  margin: 0 auto 8px auto; /* centraliza a bandeira */
+}
+
+.caixa-moeda-EUA img {
+  display: block;
+  margin: 0 auto 8px auto; /* centraliza a bandeira */
+}
+
+.texto-real {
+  font-size: 14px;
+  color: #777777;
+}
+
+.texto-valor {
+  font-weight: 700;
+  font-size: 20px;
+  color: #555555;
+}
+
+.container-geral {
+  width: 100vw;     
+  height: 100vh;      
+  background-color: #8A51FC; 
+  transform: scale(0.65); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <div class="container-geral">
+    <img class="logo" src="./assets/logo.gif" alt="gif de dinheiro">
+
+    <main>
+        <label>
+            Converter <b>de</b>
+            <select>
+                <option>R$ Real Brasileiro</option>
+            </select>
+        </label>
+
+        <label>
+            Converter <b>para</b>
+            <select class="selecionar-moeda">
+                <option value="Dolar">US$ Dólar Americano</option>
+                <option value="Euro">€ Euro</option>
+                <option value="Libra">£ Libra Esterlina</option>
+            </select>
+        </label>
+            
+        <label>
+            Valor 
+            <input class="digita-valor" placeholder="R$ 0,00">
+        </label>
+
+        <button class="botao-converter">Converter</button>
+
+        <section>
+            <div class="caixa-moeda-brasil">
+                <img src="./assets/real.png" alt="Moeda a Converter">
+                <p class="texto-real">Real</p>
+                <p class="texto-valor-a-converter">R$ 0,00</p>
+            </div>
+
+
+            <img class="imagem-seta" src="./assets/seta.png" alt="Seta">
+
+
+            <div class="caixa-moeda-EUA">
+                <img class="img-moeda-dolar" src="./assets/dolar.png" alt="Moeda Convertida">
+                <p class="texto-real" id="nome-moeda-dolar">Dólar</p>
+                <p class="texto-valor">US$ 0,00</p>
+            </div>
+        </section>
+    </main>
+    <script src="./scripts.js"></script>
+    </div>
+</body>
+
+</html>
