@@ -65,5 +65,5 @@ O design foi pensado para ser **claro e acessível**, com:
 
 ## 🌐 Acesse o Projeto Online
 
-👉 [**Clique aqui para testar o Dia de Sorte**](https://tarcisioguedes.github.io/Conversor-de-Moedas/)
+👉 [**Clique aqui para testar o Conversor de Moedas**](https://tarcisioguedes.github.io/Conversor-de-Moedas/)
 
